@@ -7,7 +7,7 @@ setuptools.setup(
     description="Block comment checker",
     author="Hideki Ikemoto",
     author_email="ikemo333@gmail.com",
-    url="https://github.com/ikemo3/flake8_block_comment",
+    url="https://github.com/ikemo3/flake8-block-comment",
     py_modules=['flake8_block_comment'],
     install_requires=[
         'pycodestyle >= 2.0.0, < 3.0.0',
