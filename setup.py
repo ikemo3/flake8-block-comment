@@ -11,7 +11,7 @@ def get_long_description():
 setuptools.setup(
     name="flake8_block_comment",
     license="MIT",
-    version="0.0.2",
+    version="0.0.3",
     description="Block comment checker",
     long_description=get_long_description(),
     author="Hideki Ikemoto",
