@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
     name="flake8_block_comment",
     license="MIT",
-    version="0.0.1",
+    version="0.0.2",
     description="Block comment checker",
     author="Hideki Ikemoto",
     author_email="ikemo333@gmail.com",
