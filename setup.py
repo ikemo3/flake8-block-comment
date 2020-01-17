@@ -1,10 +1,19 @@
 import setuptools
 
+
+def get_long_description():
+    description = []
+    with open('README.rst') as f:
+        description.append(f.read())
+    return '\n\n'.join(description)
+
+
 setuptools.setup(
     name="flake8_block_comment",
     license="MIT",
     version="0.0.2",
     description="Block comment checker",
+    long_description=get_long_description(),
     author="Hideki Ikemoto",
     author_email="ikemo333@gmail.com",
     url="https://github.com/ikemo3/flake8-block-comment",
